@@ -11,11 +11,7 @@ namespace Ex4
             int m = int.Parse(mn[0]);
             int n = int.Parse(mn[1]);
 
-
-
             int[,] matrix = new int[m, n];
-
-
 
             for (int i = 0; i < m; i++)
             {
@@ -27,8 +23,6 @@ namespace Ex4
                 }
             }
 
-
-
             Console.WriteLine();
             for (int i = 0; i < m; i++)
             {
@@ -39,12 +33,8 @@ namespace Ex4
                 Console.WriteLine();
             }
 
-
-
             Console.WriteLine("\nEnter the number in the matrix: ");
             int number = int.Parse(Console.ReadLine());
-
-
 
             for (int i = 0; i < m; i++)
             {
