@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ex4
+namespace Matrizes
 {
     class Program
     {
